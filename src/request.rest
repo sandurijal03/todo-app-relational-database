@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/todos
+Content-Type: application/json
+
+{
+  "description": "fifth post"
+}
+
+###
+GET http://localhost:3001/api/todos
+
+###
+GET http://localhost:3001/api/todos/1
+
